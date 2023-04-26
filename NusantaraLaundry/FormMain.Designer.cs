@@ -127,6 +127,7 @@
             this.btnViewLihatTransaksi.TabIndex = 3;
             this.btnViewLihatTransaksi.Text = "Lihat Transaksi";
             this.btnViewLihatTransaksi.UseVisualStyleBackColor = true;
+            this.btnViewLihatTransaksi.Click += new System.EventHandler(this.btnViewLihatTransaksi_Click);
             // 
             // btnViewInputPaket
             // 

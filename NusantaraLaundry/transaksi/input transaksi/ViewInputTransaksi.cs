@@ -137,6 +137,36 @@ namespace NusantaraLaundry.transaksi.input_transaksi
 
         private void btnOrder_Click(object sender, EventArgs e)
         {
+            if (_validatedInputs())
+            {
+                using (NusantaraLaundryDataContext dc = new NusantaraLaundryDataContext())
+                {
+                    Transaksi t = new Transaksi()
+                    {
+                        Id = inputIdTransaksi.Text,
+                        PegawaiId = Auth.Pegawai.Id,
+                        PelangganId = _selectedPelanggan.Id,
+                        TanggalTransaksi = DateTime.Now,
+                        EstimasiSelesai = _detailTransaksi.Max(dt => dt.TanggalSelesai).Value,
+                    };
+
+                    foreach (DetailTransaksi dt in _detailTransaksi)
+                    {
+                        t.DetailTransaksis.Add(dt);
+                    }
+                    dc.Transaksis.InsertOnSubmit(t);
+                    dc.SubmitChanges();
+                }
+                MessageBox.Show("Sukses melakukan transaksi");
+            }
+            else
+            {
+                MessageBox.Show("Harap Memastikan setiap kolom inputan telah valid atau terisi");
+            }
+        }
+
+        private bool _validatedInputs()
+        {
             bool valid = true;
             if (string.IsNullOrWhiteSpace(inputIdTransaksi.Text))
             {
@@ -164,32 +194,7 @@ namespace NusantaraLaundry.transaksi.input_transaksi
                 errorProvider1.SetError(inputNama, "Alamat tidak boleh kosong");
             }
 
-            if (valid)
-            {
-                using (NusantaraLaundryDataContext dc = new NusantaraLaundryDataContext())
-                {
-                    Transaksi t = new Transaksi()
-                    {
-                        Id = inputIdTransaksi.Text,
-                        PegawaiId = Auth.Pegawai.Id,
-                        PelangganId = _selectedPelanggan.Id,
-                        TanggalTransaksi = DateTime.Now,
-                        EstimasiSelesai= _detailTransaksi.Max(dt => dt.TanggalSelesai).Value,
-                    };
-
-                    foreach (DetailTransaksi dt in _detailTransaksi)
-                    {
-                        t.DetailTransaksis.Add(dt);
-                    }
-                    dc.Transaksis.InsertOnSubmit(t);
-                    dc.SubmitChanges();
-                }
-                MessageBox.Show("Sukses melakukan transaksi");
-            }
-            else
-            {
-                MessageBox.Show("Harap Memastikan setiap kolom inputan telah valid atau terisi");
-            }
+            return valid;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

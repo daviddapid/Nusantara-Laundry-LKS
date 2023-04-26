@@ -2,6 +2,7 @@
 using NusantaraLaundry.Services;
 using NusantaraLaundry.transaksi.input_paket;
 using NusantaraLaundry.transaksi.input_transaksi;
+using NusantaraLaundry.transaksi.lihat_transaksi;
 using NusantaraLaundry.Views;
 using System;
 using System.Collections.Generic;
@@ -67,6 +68,10 @@ namespace NusantaraLaundry
         {
             navigateView(new ViewInputPaket(), splitContainerTransaksi);
         }
+        private void btnViewLihatTransaksi_Click(object sender, EventArgs e)
+        {
+            navigateView(new ViewLihatTransaksi(), splitContainerTransaksi);
+        }
         //===END NAVIGATION VIEW====
 
         //GENERAL METHOD
@@ -86,7 +91,5 @@ namespace NusantaraLaundry
                 Application.Exit();
             }
         }
-
-        
     }
 }

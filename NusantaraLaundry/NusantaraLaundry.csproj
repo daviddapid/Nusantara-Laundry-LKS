@@ -139,6 +139,12 @@
     <Compile Include="transaksi\input transaksi\ViewInputTransaksi.Designer.cs">
       <DependentUpon>ViewInputTransaksi.cs</DependentUpon>
     </Compile>
+    <Compile Include="transaksi\lihat transaksi\ViewLihatTransaksi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="transaksi\lihat transaksi\ViewLihatTransaksi.Designer.cs">
+      <DependentUpon>ViewLihatTransaksi.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -190,6 +196,9 @@
     <EmbeddedResource Include="transaksi\input transaksi\ViewInputTransaksi.resx">
       <DependentUpon>ViewInputTransaksi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="transaksi\lihat transaksi\ViewLihatTransaksi.resx">
+      <DependentUpon>ViewLihatTransaksi.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="NusantaraLaundry.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>NusantaraLaundry.designer.cs</LastGenOutput>
@@ -198,9 +207,11 @@
     <None Include="NusantaraLaundry.dbml.layout">
       <DependentUpon>NusantaraLaundry.dbml</DependentUpon>
     </None>
+    <None Include="Properties\DataSources\DetailTransaksi.datasource" />
     <None Include="Properties\DataSources\Kategori.datasource" />
     <None Include="Properties\DataSources\Layanan.datasource" />
     <None Include="Properties\DataSources\Paket.datasource" />
+    <None Include="Properties\DataSources\Transaksi.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
