@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14, 9.625" name="NusantaraLaundry">
+  <DataContextMoniker Name="/NusantaraLaundryDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6849c625-bf80-4639-963d-a0069c09c04e" absoluteBounds="9, 3.875, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/NusantaraLaundryDataContext/DetailPaket" />
+      <nestedChildShapes>
+        <elementListCompartment Id="43869ab4-6137-4756-9e83-9defca9a6d6a" absoluteBounds="9.015, 4.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1826392b-6edb-4535-ac56-783eea8a179b" absoluteBounds="0.75, 2.25, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/NusantaraLaundryDataContext/Unit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85a712aa-a084-48c7-aee7-0bec50bd4806" absoluteBounds="0.765, 2.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1079776d-0fec-417d-b16e-a1a11d78b828" absoluteBounds="11.75, 3.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/NusantaraLaundryDataContext/DetailTransaksi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9de58ca7-b3a1-4cd3-9fea-2a5a17b6c21d" absoluteBounds="11.765, 4.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3cb70592-6e8a-4998-b536-23a9c2140ab8" absoluteBounds="3.5, 7.625, 2, 1.1939925130208353">
+      <DataClassMoniker Name="/NusantaraLaundryDataContext/Jabatan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3cd27015-5ccb-4af2-b008-10c6380ff3a6" absoluteBounds="3.515, 8.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ab75e96b-dafc-417a-ab39-cd88be0c682e" absoluteBounds="0.75, 4.25, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/NusantaraLaundryDataContext/Kategori" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df7c3daf-67cf-4408-8cec-805e597e3f4b" absoluteBounds="0.765, 4.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0f70a8cc-9b90-42b1-b1cc-f160f8361152" absoluteBounds="3.5, 3.875, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/NusantaraLaundryDataContext/Layanan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="936df369-8b78-4da9-b771-2283bc5d191b" absoluteBounds="3.515, 4.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fbbc3abc-ae48-4423-8c58-410c0d30c7bc" absoluteBounds="6.25, 4, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/NusantaraLaundryDataContext/Paket" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5ef816ce-c4a0-4a92-ac2f-a3edb9c54d23" absoluteBounds="6.265, 4.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0560b97d-7927-44fe-9d5b-336096fa821c" absoluteBounds="6.25, 6.875, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/NusantaraLaundryDataContext/Pegawai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="94aed2b8-f155-471a-99f5-09e989287831" absoluteBounds="6.265, 7.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3422f3df-a8c4-4a80-a849-76e0dd3862ca" absoluteBounds="6.25, 1, 2, 1.5785953776041663">
+      <DataClassMoniker Name="/NusantaraLaundryDataContext/Pelanggan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5a46f387-9be9-4518-9170-640a012b9484" absoluteBounds="6.265, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="430058a6-9d33-4182-bc02-3ac42bb7078e" absoluteBounds="9, 0.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/NusantaraLaundryDataContext/Transaksi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bfc3d5e2-6966-48b0-8e2d-8640fd4f5cdd" absoluteBounds="9.015, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11 : 4.85659912109375); (11.75 : 4.85659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NusantaraLaundryDataContext/DetailPaket/DetailPaket_DetailTransaksi" />
+      <nodes>
+        <classShapeMoniker Id="6849c625-bf80-4639-963d-a0069c09c04e" />
+        <classShapeMoniker Id="1079776d-0fec-417d-b16e-a1a11d78b828" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 5.8381982421875); (5.875 : 6.2131982421875); (5.875 : 6.28049967447917); (8.72916666666667 : 6.28049967447917 : JumpStart); (8.89583333333333 : 6.28049967447917 : JumpEnd); (11.375 : 6.28049967447917); (11.75 : 5.90549967447917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/NusantaraLaundryDataContext/Layanan/Layanan_DetailTransaksi" />
+      <nodes>
+        <classShapeMoniker Id="0f70a8cc-9b90-42b1-b1cc-f160f8361152" />
+        <classShapeMoniker Id="1079776d-0fec-417d-b16e-a1a11d78b828" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.84699625651042); (3.5 : 4.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NusantaraLaundryDataContext/Kategori/Kategori_Layanan" />
+      <nodes>
+        <classShapeMoniker Id="ab75e96b-dafc-417a-ab39-cd88be0c682e" />
+        <classShapeMoniker Id="0f70a8cc-9b90-42b1-b1cc-f160f8361152" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.84699625651042); (4.5 : 2.84699625651042); (4.5 : 3.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NusantaraLaundryDataContext/Unit/Unit_Layanan" />
+      <nodes>
+        <classShapeMoniker Id="1826392b-6edb-4535-ac56-783eea8a179b" />
+        <classShapeMoniker Id="0f70a8cc-9b90-42b1-b1cc-f160f8361152" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 4.78929768880208); (8.54166666666667 : 4.78929768880208 : JumpStart); (8.70833333333333 : 4.78929768880208 : JumpEnd); (8.72916666666667 : 4.78929768880208 : JumpStart); (8.89583333333333 : 4.78929768880208 : JumpEnd); (9 : 4.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NusantaraLaundryDataContext/Paket/Paket_DetailPaket" />
+      <nodes>
+        <classShapeMoniker Id="fbbc3abc-ae48-4423-8c58-410c0d30c7bc" />
+        <classShapeMoniker Id="6849c625-bf80-4639-963d-a0069c09c04e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.78929768880208); (6.25 : 4.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NusantaraLaundryDataContext/Layanan/Layanan_Paket" />
+      <nodes>
+        <classShapeMoniker Id="0f70a8cc-9b90-42b1-b1cc-f160f8361152" />
+        <classShapeMoniker Id="fbbc3abc-ae48-4423-8c58-410c0d30c7bc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.22199625651042); (6.25 : 8.22199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NusantaraLaundryDataContext/Jabatan/Jabatan_Pegawai" />
+      <nodes>
+        <classShapeMoniker Id="3cb70592-6e8a-4998-b536-23a9c2140ab8" />
+        <classShapeMoniker Id="0560b97d-7927-44fe-9d5b-336096fa821c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 2.57738007346755); (8.625 : 2.95238007346755); (8.625 : 5.34499996549479); (8.72916666666667 : 5.34499996549479 : JumpStart); (8.89583333333333 : 5.34499996549479 : JumpEnd); (9 : 5.34499996549479)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NusantaraLaundryDataContext/Pelanggan/Pelanggan_DetailPaket" />
+      <nodes>
+        <classShapeMoniker Id="3422f3df-a8c4-4a80-a849-76e0dd3862ca" />
+        <classShapeMoniker Id="6849c625-bf80-4639-963d-a0069c09c04e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 1.63544840494792); (12.75 : 1.63544840494792); (12.75 : 3.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NusantaraLaundryDataContext/Transaksi/Transaksi_DetailTransaksi" />
+      <nodes>
+        <classShapeMoniker Id="430058a6-9d33-4182-bc02-3ac42bb7078e" />
+        <classShapeMoniker Id="1079776d-0fec-417d-b16e-a1a11d78b828" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 6.93653746153846); (8.8125 : 6.37403746153846); (8.8125 : 1.63544840494792); (9 : 1.63544840494792)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NusantaraLaundryDataContext/Pegawai/Pegawai_Transaksi" />
+      <nodes>
+        <classShapeMoniker Id="0560b97d-7927-44fe-9d5b-336096fa821c" />
+        <classShapeMoniker Id="430058a6-9d33-4182-bc02-3ac42bb7078e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 2.14067260742187); (8.72916666666667 : 2.14067260742187 : JumpStart); (8.89583333333333 : 2.14067260742187 : JumpEnd); (9 : 2.14067260742187)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NusantaraLaundryDataContext/Pelanggan/Pelanggan_Transaksi" />
+      <nodes>
+        <classShapeMoniker Id="3422f3df-a8c4-4a80-a849-76e0dd3862ca" />
+        <classShapeMoniker Id="430058a6-9d33-4182-bc02-3ac42bb7078e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
